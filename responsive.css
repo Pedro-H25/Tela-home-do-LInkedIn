@@ -1,0 +1,56 @@
+@media screen and (max-width: 650px) {
+    .pesquisar{
+    display: none;
+   }
+   .nav-perfil{
+    display: none;
+   }
+
+   #premium{
+    display: none;
+   }
+   main{
+    flex-direction: column;
+   }
+   .profile-card{
+    max-width: 100%;
+   }
+   .card{
+    max-width: 100%;
+   }
+
+   .reaction p{
+    display: none;
+   }
+
+   #card-2, #card-3, #card-4{
+    display: none
+   }
+
+}
+
+
+@media screen and (max-width: 1024px) {
+    header{
+        margin: 0;
+    }
+    main{
+        margin: 0;
+    }
+    nav{
+        gap:30px;
+        justify-content: space-around;
+    }
+    nav a{
+        display: none;
+    }
+    .widgets {
+        display: none;
+    }
+    #premium{
+        display: none;
+       }
+    .nav-perfil{
+        display: none;
+       }
+}
