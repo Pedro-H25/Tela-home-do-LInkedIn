@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinkedIn Clone</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/keyframes.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/Styless-profile.css">
+
+<body>
+    <!-- Barra de navegação -->
+    <header>
+        <div class="nav-container">
+            <div class="search">
+                <img class="logolin" src="img/linkedin-logo.png" alt="Logotipo do LinkedIn">
+                <div class="pesquisar">
+                    <img id="lupa-icon" src="img/lupa.png" alt="">
+                    <input type="text" placeholder="Pesquisar">
+                </div>
+            </div>
+            <nav>
+                <div class="nav-item">
+                        <img class="barra" src="img/home-icon.png" alt="Ícone de Início">
+                        <a id="tag-home" href="#">Início</a>
+                </div>
+                    <div class="nav-item">
+                        <img class="barra" src="img/rede.png" alt="Ícone de Minha Rede">
+                        <a href="#">Minha rede</a>
+                    </div>
+                    <div  class="nav-item">
+                        <img class="barra" src="img/vagas.png" alt="Ícone de Vagas">
+                        <a href="#">Vagas</a>
+                    </div  class="nav-item">
+                    <div  class="nav-item">
+                        <img class="barra" src="img/mensagens.png" alt="Ícone de Mensagens">
+                        <a href="#">Mensagens</a>
+                    </div>
+                    <div  class="nav-item">
+                        <img class="barra" src="img/notifi.png" alt="Ícone de Notificações">
+                        <a href="#">Notificações</a>
+                    </div>
+                    <div class="nav-perfil">
+                        <img id="perfil" class="barra" src="img/profile.png" alt="Ícone de Perfil">
+                        <a href="#">Eu &#9660</a>
+                    </div>
+                    <div id="menu-container" class="nav-perfil">
+                        <img id="menu" src="img/menu.png" alt="Ícone de Menu">
+                        <a href="#">Para negócios &#9660</a>
+                    </div>
+                    <a id="premium" href="#">Experimente Premium por BRL0</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+                <div class="profile-card">
+            <div class="card">
+                <div class="card-content">
+                    <div>
+                        <img class="profile1" src="img/profile.png" alt="Foto de Perfil">
+                    </div>
+                    <div class="card-text">
+                        <h3>Pedro Henrique</h3>
+                        <h5 class="tag">HTML | CSS</h5>
+                        <p class="p1">Aluno do Instituto Federal</p>
+                    </div>
+                </div>
+               
+            </div>
+            
+            <div id="card-2" class="card">
+                <div class="card-content"> 
+                <p class="p1" >Acesse ferramentas e insights exclusivos</p>
+                <div class="card-icon-text">
+                    <img class="card-icon" src="img/experimente.png" alt="">
+                    <h5 class="tag"> Networking esperto com premium</h5>
+                </div>
+            </div>
+
+            </div>
+
+            <div id="card-3" class="card">
+                <div class="card-content">
+
+                <div class="connection">
+                    <h5 class="tag">Conexões</h5>
+                    <p id="connection-number">2</p>
+                </div> 
+                <p class="p1"><strong>Amplie sua rede</strong></p>
+            </div>
+            </div class="card">
+
+            <div class="card">
+                <div id="card-4" class="card-content">
+                <div class="card-icon-text">
+                    <img class="card-icon" src="img/save.png" alt="">
+                    <h5 class="tag">Itens Salvos</h5>
+                </div>
+                <div class="card-icon-text">
+                    <img class="card-icon" src="img/grupo.png" alt="">
+                    <h5 class="tag">Grupos</h5>
+                </div>
+                <div class="card-icon-text">
+                    <img class="card-icon" src="img/newsletters.png" alt="">
+                    <h5 class="tag">Newsletters</h5>
+                </div>
+                <div class="card-icon-text">
+                    <img class="card-icon" src="img/eventos.png" alt="">
+                    <h5 class="tag">Eventos</h5>
+                </div>
+            </div>
+
+            </div>
+
+            </div>
+
+
+
+
+
+        <div class="feed">
+            <div class="post-box">
+                <div class="post-bar">
+                    <img class="profile2" src="img/profile.png" alt="Foto">
+                    <input type="text" placeholder="Comece uma publicação">
+                </div>
+                <div class="post-options">
+                    <div class="option">
+                        <img src="img/videos.png" alt="">
+                        <p>Vídeo</p>
+                    </div>
+                    <div class="option">
+                        <img src="img/foto.png" alt="">
+                        <p>Foto</p>
+                    </div>
+                    <div class="option">
+                        <img src="img/artigo.png" alt="">
+                        <p>Escrever artigo</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post">
+                <div class="post-container">
+                    <div class="post-header">
+                    <img src="img/user.png" alt="Usuário">
+                    <div>
+                        <h3>Rafael Castro</h3>
+                        <p>1d • Programadores Brasil</p>
+                    </div>
+                </div>
+                <p>Curso de programação para iniciantes!</p>
+                </div>
+                    
+                <img class="post-img" src="img/post1.png" alt="Meme do Homem-Aranha">
+                <div class="post-footer">
+                    <div class="post-info">
+                        <div class="reactions">
+                            <img src="img/reactions.png" alt="">
+                            <p>110</p>
+                        </div>
+                        <div class="comments-share">
+                            <p>43 comentários • 2 compartilhamentos</p>
+                            <p></p>
+                        </div>
+                    </div>
+
+                    <div class="reaction-buttons">
+                        <div class="reaction">
+                            <img src="img/like.png" alt="">
+                            <p>Gostei</p>
+                        </div>
+                        <div class="reaction">
+                            <img src="img/comments.png" alt="">
+                            <p>Comentar</p>
+                        </div>
+
+                        <div class="reaction">
+                            <img src="img/reposts.png" alt="">
+                            <p>Compartilhar</p>
+                        </div>
+
+                        <div class="reaction">
+                            <img src="img/enviar.png" alt="">
+                            <p>Enviar</p>
+                        </div>
+
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="widgets">
+            <div class="trending">
+                <h3>Temas em alta</h3>
+                <h4>por LinkedIn Notícias</h4>
+                <div>
+                    <h5>Vagas de trainee e estágio</h5>
+                    <p class="p1">há 10h • 42.000</p>
+                </div>
+                <div>
+                    <h5>Ansiedade em alta no trabalho</h5>
+                    <p class="p1">há 1h • 12.000</p>
+                </div>
+                <div>
+                    <h5>Novidades do LinkedIn Learning</h5>
+                    <p class="p1">há 8h • 22.000</p>
+                </div>
+
+                <h5>Exibir mais <img id="arrow-icon" src="img/arrow-down.png" alt=""> </h5>
+            </div>
+
+
+            
+        </div>
+    </main>
+
+</body>
+
+</html>
